@@ -109,11 +109,9 @@ export const DualMonitor = () => {
         width={`${(krakenStore.gif.size ?? 1) * 500}%`}
         style={{
           mixBlendMode: krakenStore.gif.blend,
-          filter: `blur(${(krakenStore.gif.blur ?? 1) * 10}px) opacity(${
-            krakenStore.gif.alpha
-          }) brightness(${(krakenStore.gif.brightness ?? 1) * 2}) contrast(${
-            (krakenStore.gif.contrast ?? 1) * 2
-          })`,
+          filter: `blur(${(krakenStore.gif.blur ?? 1) * 10}px) opacity(${krakenStore.gif.alpha
+            }) brightness(${(krakenStore.gif.brightness ?? 1) * 2}) contrast(${(krakenStore.gif.contrast ?? 1) * 2
+            })`,
         }}
       />
 
