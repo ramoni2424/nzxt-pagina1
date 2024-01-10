@@ -24,19 +24,7 @@ export const Progress = (props: IProgressProps) => {
     <Container>
       <svg width={`${size}px`} height={`${size}px`}>
         <defs>
-          <linearGradient x1="50%" y1="100%" x2="0%" y2="0%" id="gradient-left">
-            <stop
-              stopColor={props?.leftCircleStart?.color ?? '#000'}
-              stopOpacity={props.leftCircleStart?.alpha}
-              offset="30%"
-            ></stop>
-            <stop
-              stopColor={props?.leftCircleEnd?.color}
-              stopOpacity={props.leftCircleEnd?.alpha}
-              offset="50%"
-            ></stop>
-          </linearGradient>
-
+         
           <linearGradient x1="50%" y1="100%" x2="0%" y2="0%" id="gradient-right">
             <stop
               stopColor={props?.rightCircleStart?.color ?? '#fff'}
