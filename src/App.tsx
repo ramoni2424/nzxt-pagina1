@@ -8,8 +8,6 @@ import { useKrakenStore } from 'store/kraken'
 import { Preferences } from 'components/Preferences'
 import { DualMonitor } from 'components/DualMonitor'
 
-import { Link } from 'react-router-dom';
-
 export const GlobalStyles = createGlobalStyle`
   
   :root {
@@ -148,7 +146,5 @@ function App() {
     </>
   )
 }
-
-<Link to="prueba.com"></Link>
 
 export default App
