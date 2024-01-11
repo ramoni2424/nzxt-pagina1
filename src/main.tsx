@@ -4,6 +4,8 @@ import App from './App.tsx'
 
 import React, { useEffect } from 'react';
 
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(<App />)
+
 const Componente = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -18,4 +20,3 @@ const Componente = () => {
 
 export default Componente;
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(<App />)
